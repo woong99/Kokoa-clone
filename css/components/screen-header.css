@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 32px;
@@ -10,4 +11,13 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+.cog__dot {
+  position: absolute;
+  left: 120px;
+  bottom: 20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
 }
